@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+label{
+	color:red; font-size:16px;
+}
+input{
+	width:100%;height: 25px;margin-bottom: 25px;margin-top: 25px;color:#4f4f;border-radius: 5px;
+}
+
+div.d1{
+width:900px;
+height:700px;
+margin-left:300px;
+margin-top:60px
+}
+div.d2{
+width:306px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+margin: 0 auto;
+    text-align: left;
+    width: 400px;
+}
+h3{
+margin:-10px -50px
+text-align:center}
+</style> 
+
+<title>Login</title>
+</head>
+<body>
+
+<div class="d1">
+<div class="d2">
+<form action="./servsignup" >
+<label>First name</label>
+<input type="text" name="fn">
+<label>Last name</label>
+<input name="ln">
+<label>User name</label>
+<input type="text" name="unm">
+<label>Password</label>
+<input type="password" name="pwd"/>
+<label>Hint Question</label><br>
+<select name="hqe">
+<option value="what is your favorite color?">
+what is your favorite color?</option>
+<option value="what is your fathers middle name">
+What is your fathers middle name?</option>
+<option value="what is your pet dogs name?">
+what is your pet dogs name?</option>
+<option value="what is your first school name?">
+what is your first school name?</option>
+</select><br>
+<label>Ans</label>
+<input name="ans">
+<input type="submit" value="submit">
+<input type="reset">
+</form>
+</div>
+</div>
+</body>
+</html>
