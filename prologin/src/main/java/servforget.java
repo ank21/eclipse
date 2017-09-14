@@ -35,7 +35,7 @@ public class servforget extends HttpServlet {
 				rs.last();
 				rows = rs.getRow();
 				rs.beforeFirst();
-		System.out.println("valueeeeeeeeeeeeeeeeeeeeeeeeeeeeee================="+rows);
+		
 		if(rows!=0) {
 			response.sendRedirect("recover.html");
 		}
